@@ -30,6 +30,9 @@ ol menu{
 .col-60{
     width: 60%;
 }
+.col-80{
+    width: 80%;
+}
 
 /*debug*/
 
@@ -60,7 +63,8 @@ ol menu{
 #header-login{
     text-align: end;
 }
-#container--navbar{
+#container--navbar,
+#container--first-main{
     border: none;
     padding: 0;
 }
@@ -73,4 +77,18 @@ ol menu{
 #header-login{
     border: 2px dotted black;
     background-color:rgb(215, 171, 59);
+}
+.first-main .row{
+    border:none;
+    padding:none;
+    justify-content:center;
+}
+.first-main{
+    padding: 10px;
+    background-color: navy;
+}
+#first-main-col-80{
+    border: 2px dotted black;
+    background-color: rgb(223, 134, 178);
+    min-height: 200px;
 }
