@@ -46,16 +46,31 @@ ol menu{
 .debug [class^='col']{
     border: 2px solid green;
     padding: 20px;
-    min-height: 40px;
+    min-height: 30px;
 }
 /*stili*/
 .navbar .row{
   justify-content: space-between;
   border: none;
+  padding: 0;
 }
-.row .link{
+#header-link{
     text-align: center;
 }
-.row .login{
+#header-login{
     text-align: end;
+}
+#container--navbar{
+    border: none;
+    padding: 0;
+}
+.navbar{
+    padding: 5px;
+    background-color: rgb(179, 233, 233);
+}
+#header-logo,
+#header-link,
+#header-login{
+    border: 2px dotted black;
+    background-color:rgb(215, 171, 59);
 }
