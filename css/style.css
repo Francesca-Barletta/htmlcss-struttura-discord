@@ -42,6 +42,18 @@ ol menu{
 .col-100{
     width: 100%;
 }
+.col-15{
+    width: 15%;
+}
+.col-40{
+    width: 40%;
+}
+.col-33{
+    width: calc(100% /3);
+}
+.col-16{
+    width: calc(100% /6);
+}
 
 /*debug*/
 
@@ -115,12 +127,12 @@ ol menu{
     padding: 10px;
     background-color: lightgrey;
 }
-.col-70{
+.col-60{
     border: 2px dotted black;
     background-color: rgb(67, 142, 228);
     min-height: 300px;
 }
-.col-30{
+.col-40{
     border: 2px dotted black;
     background-color: rgb(240, 162, 236);
     min-height: 300px;
@@ -133,4 +145,19 @@ ol menu{
     border: 2px dotted black;
     background-color: green;
     min-height: 500px;
+}
+.sixth-main{
+    padding: 10px;
+    background-color: rgb(31, 30, 30);
+}
+
+.col-16{
+    border:2px dotted white;
+    background-color:rgb(12, 169, 169);
+    min-height: 300px;
+}
+.col-33{
+    border:2px dotted white;
+    background-color:salmon;
+    min-height: 300px;
 }
