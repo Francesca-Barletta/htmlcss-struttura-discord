@@ -154,10 +154,10 @@ ol menu{
 .col-16{
     border:2px dotted white;
     background-color:rgb(12, 169, 169);
-    min-height: 300px;
+    min-height: 350px;
 }
 .col-33{
     border:2px dotted white;
     background-color:salmon;
-    min-height: 300px;
+    min-height: 350px;
 }
