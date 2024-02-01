@@ -76,7 +76,7 @@ ol menu{
 .navbar .row{
   justify-content: space-between;
   border: none;
-  padding: 0;
+  
 }
 #header-link{
     text-align: center;
@@ -98,6 +98,8 @@ ol menu{
 #header-login{
     border: 2px dotted black;
     background-color:rgb(215, 171, 59);
+    padding-top:5px;
+    padding-bottom: 5px;
 }
 .first-main .row{
     border:none;
@@ -110,8 +112,8 @@ ol menu{
 }
 #first-main-col-80{
     border: 2px dotted black;
-    background-color: rgb(223, 134, 178);
-    min-height: 200px;
+    background-color: rgb(252, 149, 200);
+    min-height: 250px;
 }
 .second-main .row{
     border:none;
@@ -146,7 +148,7 @@ ol menu{
     background-color: green;
     min-height: 500px;
 }
-.sixth-main{
+.darkgrey-main{
     padding: 10px;
     background-color: rgb(31, 30, 30);
 }
@@ -157,7 +159,27 @@ ol menu{
     min-height: 350px;
 }
 .col-33{
-    border:2px dotted white;
+    border: 2px dotted black;
     background-color:salmon;
     min-height: 350px;
+}
+.darkgrey-main .row{
+    border: 2px dotted black;
+}
+.footer{
+    padding: 10px;
+    background-color: rgb(31, 30, 30);
+    border-top: 2px solid white;
+}
+.footer .row{
+    background-color: aquamarine;
+    justify-content: space-between;
+    min-height: 50px;
+    align-items: center;
+}
+#logo-bottom,
+#bottone-bottom{
+    border: 2px dotted black;
+    background-color: rgb(241, 160, 151);
+    padding: 2px;
 }
