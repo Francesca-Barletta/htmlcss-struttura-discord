@@ -84,11 +84,7 @@ ol menu{
 #header-login{
     text-align: end;
 }
-#container--navbar,
-#container--first-main{
-    border: none;
-    padding: 0;
-}
+
 .navbar{
     padding: 5px;
     background-color: rgb(179, 233, 233);
@@ -101,31 +97,25 @@ ol menu{
     padding-top:5px;
     padding-bottom: 5px;
 }
-.first-main .row{
+.navy-main .row{
     border:none;
     padding:none;
     justify-content:center;
 }
-.first-main{
+.navy-main{
     padding: 10px;
     background-color: navy;
 }
-#first-main-col-80{
+.col-80{
     border: 2px dotted black;
     background-color: rgb(252, 149, 200);
     min-height: 250px;
 }
-.second-main .row{
-    border:none;
-    padding:none;
-    justify-content:center;
-}
-.second-main,
-.fourth-main{
+.white-main{
     padding: 10px;
     background-color: white;
 }
-.third-main{
+.lightgray-main{
     padding: 10px;
     background-color: lightgrey;
 }
@@ -139,10 +129,7 @@ ol menu{
     background-color: rgb(240, 162, 236);
     min-height: 300px;
 }
-.fifth-main{
-    background-color: lightgrey;
-    padding: 10px;
-}
+
 .col-100{
     border: 2px dotted black;
     background-color: green;
