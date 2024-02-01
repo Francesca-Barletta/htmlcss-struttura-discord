@@ -39,6 +39,9 @@ ol menu{
 .col-30{
     width: 30%;
 }
+.col-100{
+    width: 100%;
+}
 
 /*debug*/
 
@@ -121,4 +124,13 @@ ol menu{
     border: 2px dotted black;
     background-color: rgb(240, 162, 236);
     min-height: 300px;
+}
+.fifth-main{
+    background-color: lightgrey;
+    padding: 10px;
+}
+.col-100{
+    border: 2px dotted black;
+    background-color: green;
+    min-height: 500px;
 }
