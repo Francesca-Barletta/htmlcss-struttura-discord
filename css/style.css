@@ -18,12 +18,34 @@ ol menu{
 
 .container{
     width: 900px;
-    border: 2px solid black;
-    padding: 20px;
     margin: auto;
 }
 .row{
     display:flex;
     flex-wrap: wrap;
+}
+.row .row-25{
+    width: 25%;
+}
+.row .row-50{
+    width: 50%;
+}
+
+/*debug*/
+
+.debug .container{
+    border: 2px solid black;
+    padding: 20px;
+}
+
+.debug .row{
+    border: 2px solid red;
+    padding: 20px;
+}
+
+.debug .col{
+    border: 2px solid green;
+    padding: 20px;
+    min-height: 100px;
 }
 
