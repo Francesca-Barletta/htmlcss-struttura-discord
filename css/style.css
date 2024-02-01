@@ -17,17 +17,17 @@ ol menu{
 /*layout*/
 
 .container{
-    width: 900px;
-    margin: auto;
+    max-width: 900px;
+    margin: 0 auto;
 }
 .row{
     display:flex;
     flex-wrap: wrap;
 }
-.row .row-25{
+.col-25{
     width: 25%;
 }
-.row .row-50{
+.col-50{
     width: 50%;
 }
 
@@ -43,7 +43,7 @@ ol menu{
     padding: 20px;
 }
 
-.debug .col{
+.debug [class^='col']{
     border: 2px solid green;
     padding: 20px;
     min-height: 100px;
