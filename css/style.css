@@ -14,5 +14,11 @@ ol menu{
     list-style: none;
 }
 
+/*layout*/
 
+.container{
+    width: 900px;
+    border: 2px solid black;
+    padding: 20px;
+}
 
