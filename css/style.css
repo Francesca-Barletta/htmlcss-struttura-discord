@@ -20,5 +20,10 @@ ol menu{
     width: 900px;
     border: 2px solid black;
     padding: 20px;
+    margin: auto;
+}
+.row{
+    display:flex;
+    flex-wrap: wrap;
 }
 
