@@ -33,6 +33,12 @@ ol menu{
 .col-80{
     width: 80%;
 }
+.col-70{
+    width: 70%;
+}
+.col-30{
+    width: 30%;
+}
 
 /*debug*/
 
@@ -91,4 +97,28 @@ ol menu{
     border: 2px dotted black;
     background-color: rgb(223, 134, 178);
     min-height: 200px;
+}
+.second-main .row{
+    border:none;
+    padding:none;
+    justify-content:center;
+}
+.second-main,
+.fourth-main{
+    padding: 10px;
+    background-color: white;
+}
+.third-main{
+    padding: 10px;
+    background-color: lightgrey;
+}
+.col-70{
+    border: 2px dotted black;
+    background-color: rgb(67, 142, 228);
+    min-height: 300px;
+}
+.col-30{
+    border: 2px dotted black;
+    background-color: rgb(240, 162, 236);
+    min-height: 300px;
 }
